@@ -36,6 +36,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new CopyWebpackPlugin({ from: "public", to: "build/public" }),
     new CleanWebpackPlugin(["build"]),
     new HtmlWebpackPlugin({
       template: "public/index.html"
