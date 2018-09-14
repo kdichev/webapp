@@ -36,8 +36,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new CopyWebpackPlugin([{ from: "public", to: "build/public" }]),
     new CleanWebpackPlugin(["build"]),
+    new CopyWebpackPlugin([
+      { from: "public/favicon.ico", to: "static/assets" }
+    ]),
     new HtmlWebpackPlugin({
       template: "public/index.html"
     }),
@@ -48,9 +50,9 @@ module.exports = {
       clientsClaim: true,
       skipWaiting: true
     }),
-    new ManifestPlugin({ fileName: "asset-manifest.json" }),
+    new ManifestPlugin({ fileName: "manifests/asset-manifest.json" }),
     new WebpackPwaManifest({
-      filename: "pwa-manifest.json",
+      filename: "manifests/pwa-manifest.json",
       name: "My Progressive Web App",
       short_name: "MyPWA",
       description: "My awesome Progressive Web App!",
@@ -64,7 +66,8 @@ module.exports = {
         {
           src: "public/favicon.ico",
           sizes: [512, 192, 64, 32, 24, 16],
-          type: "image/x-icon"
+          type: "image/x-icon",
+          destination: path.join("static/assets", "icons")
         }
       ]
     })
