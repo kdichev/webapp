@@ -1,0 +1,18 @@
+{
+  "main.js": "static/js/10b4309e98eb6d3e43e5.chunk.js",
+  "vendors~main.js": "static/js/7881ad5f7a0a1473f216.chunk.js",
+  "runtime~main.js": "static/js/runtime~main.bundle.f68898376d6e2e34357a.js",
+  "service-worker.js": "service-worker.js",
+  "index.html": "index.html",
+  "static/js/10b4309e98eb6d3e43e5.chunk.js.gz": "static/js/10b4309e98eb6d3e43e5.chunk.js.gz",
+  "static/js/runtime~main.bundle.f68898376d6e2e34357a.js.gz": "static/js/runtime~main.bundle.f68898376d6e2e34357a.js.gz",
+  "static/js/7881ad5f7a0a1473f216.chunk.js.gz": "static/js/7881ad5f7a0a1473f216.chunk.js.gz",
+  "precache-manifest.680697f13aeb2ddf50c815364e63dbe0.js": "precache-manifest.680697f13aeb2ddf50c815364e63dbe0.js",
+  "pwa-manifest.json": "pwa-manifest.json",
+  "icon_16x16.c92b85a5b907c70211f4ec25e29a8c4a.ico": "icon_16x16.c92b85a5b907c70211f4ec25e29a8c4a.ico",
+  "icon_24x24.c92b85a5b907c70211f4ec25e29a8c4a.ico": "icon_24x24.c92b85a5b907c70211f4ec25e29a8c4a.ico",
+  "icon_32x32.c92b85a5b907c70211f4ec25e29a8c4a.ico": "icon_32x32.c92b85a5b907c70211f4ec25e29a8c4a.ico",
+  "icon_64x64.c92b85a5b907c70211f4ec25e29a8c4a.ico": "icon_64x64.c92b85a5b907c70211f4ec25e29a8c4a.ico",
+  "icon_192x192.c92b85a5b907c70211f4ec25e29a8c4a.ico": "icon_192x192.c92b85a5b907c70211f4ec25e29a8c4a.ico",
+  "icon_512x512.c92b85a5b907c70211f4ec25e29a8c4a.ico": "icon_512x512.c92b85a5b907c70211f4ec25e29a8c4a.ico"
+}
