@@ -5,7 +5,7 @@ const CompressionPlugin = require("compression-webpack-plugin");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-var ManifestPlugin = require("webpack-manifest-plugin");
+const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
   mode: "production",
@@ -38,7 +38,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(["build"]),
     new CopyWebpackPlugin([
-      { from: "public/favicon.ico", to: "static/assets" }
+      { from: "public/favicon.ico", to: "static/assets/icons" }
     ]),
     new HtmlWebpackPlugin({
       template: "public/index.html"
